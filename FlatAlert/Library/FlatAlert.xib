@@ -37,15 +37,15 @@
                     <color key="backgroundColor" red="0.99991267919540405" green="1" blue="0.99988144636154175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstItem="8oc-2I-iKe" firstAttribute="centerY" secondItem="KzQ-Bt-nQ7" secondAttribute="centerY" id="0KF-rR-epg"/>
-                        <constraint firstItem="8oc-2I-iKe" firstAttribute="leading" secondItem="KzQ-Bt-nQ7" secondAttribute="leadingMargin" id="3Z5-hZ-yEp"/>
-                        <constraint firstItem="8oc-2I-iKe" firstAttribute="trailing" secondItem="KzQ-Bt-nQ7" secondAttribute="trailingMargin" id="5yv-yv-euz"/>
+                        <constraint firstItem="8oc-2I-iKe" firstAttribute="leading" secondItem="KzQ-Bt-nQ7" secondAttribute="leadingMargin" constant="15" id="3Z5-hZ-yEp"/>
+                        <constraint firstItem="8oc-2I-iKe" firstAttribute="trailing" secondItem="KzQ-Bt-nQ7" secondAttribute="trailingMargin" constant="-15" id="5yv-yv-euz"/>
                         <constraint firstItem="CND-GD-haG" firstAttribute="leading" secondItem="KzQ-Bt-nQ7" secondAttribute="leading" id="N4J-my-yN9"/>
-                        <constraint firstItem="8oc-2I-iKe" firstAttribute="top" secondItem="ttV-xN-dlv" secondAttribute="bottom" constant="20" id="Zme-HK-9hf"/>
+                        <constraint firstItem="8oc-2I-iKe" firstAttribute="top" secondItem="ttV-xN-dlv" secondAttribute="bottom" constant="15" id="Zme-HK-9hf"/>
                         <constraint firstItem="8oc-2I-iKe" firstAttribute="centerX" secondItem="ttV-xN-dlv" secondAttribute="centerX" id="c8V-b8-kWE"/>
                         <constraint firstItem="8oc-2I-iKe" firstAttribute="centerX" secondItem="CND-GD-haG" secondAttribute="centerX" id="iaM-tS-3Lx"/>
-                        <constraint firstItem="ttV-xN-dlv" firstAttribute="top" secondItem="KzQ-Bt-nQ7" secondAttribute="top" constant="15" id="kAW-ya-y9u"/>
-                        <constraint firstItem="CND-GD-haG" firstAttribute="top" secondItem="8oc-2I-iKe" secondAttribute="bottom" constant="25" id="mNo-E1-ixA"/>
-                        <constraint firstAttribute="bottom" secondItem="CND-GD-haG" secondAttribute="bottom" constant="15" id="rjg-Bx-zVO"/>
+                        <constraint firstItem="ttV-xN-dlv" firstAttribute="top" secondItem="KzQ-Bt-nQ7" secondAttribute="top" constant="25" id="kAW-ya-y9u"/>
+                        <constraint firstItem="CND-GD-haG" firstAttribute="top" secondItem="8oc-2I-iKe" secondAttribute="bottom" constant="10" id="mNo-E1-ixA"/>
+                        <constraint firstAttribute="bottom" secondItem="CND-GD-haG" secondAttribute="bottom" constant="10" id="rjg-Bx-zVO"/>
                         <constraint firstAttribute="trailing" secondItem="CND-GD-haG" secondAttribute="trailing" id="wny-aw-rvM"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>
