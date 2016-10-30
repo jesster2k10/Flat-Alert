@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FlatAlert" customModule="FlatAlert" customModuleProvider="target">
+            <connections>
+                <outlet property="alertActionStackView" destination="CND-GD-haG" id="NOI-LS-5Ye"/>
+                <outlet property="alertMessage" destination="8oc-2I-iKe" id="k83-bA-iPo"/>
+                <outlet property="alertTitle" destination="ttV-xN-dlv" id="UdF-T0-lfZ"/>
+                <outlet property="alertView" destination="KzQ-Bt-nQ7" id="Uqa-Rb-TqY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KzQ-Bt-nQ7" customClass="FlatAlertView" customModule="FlatAlert" customModuleProvider="target">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8oc-2I-iKe">
+                            <string key="text">In order to use Stackr, you must be 13 years or older. Please try again later. In order to use Stackr, you must be 13 years or older. Please try again later. </string>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.41172602772712708" green="0.4117894172668457" blue="0.41171222925186157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CND-GD-haG" userLabel="Alert Action Stack View"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Registration Failed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ttV-xN-dlv">
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                            <color key="textColor" red="0.27840375900268555" green="0.27844899892807007" blue="0.27839386463165283" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.99991267919540405" green="1" blue="0.99988144636154175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="8oc-2I-iKe" firstAttribute="centerY" secondItem="KzQ-Bt-nQ7" secondAttribute="centerY" id="0KF-rR-epg"/>
+                        <constraint firstItem="8oc-2I-iKe" firstAttribute="leading" secondItem="KzQ-Bt-nQ7" secondAttribute="leadingMargin" id="3Z5-hZ-yEp"/>
+                        <constraint firstItem="8oc-2I-iKe" firstAttribute="trailing" secondItem="KzQ-Bt-nQ7" secondAttribute="trailingMargin" id="5yv-yv-euz"/>
+                        <constraint firstItem="CND-GD-haG" firstAttribute="leading" secondItem="KzQ-Bt-nQ7" secondAttribute="leading" id="N4J-my-yN9"/>
+                        <constraint firstItem="8oc-2I-iKe" firstAttribute="top" secondItem="ttV-xN-dlv" secondAttribute="bottom" constant="20" id="Zme-HK-9hf"/>
+                        <constraint firstItem="8oc-2I-iKe" firstAttribute="centerX" secondItem="ttV-xN-dlv" secondAttribute="centerX" id="c8V-b8-kWE"/>
+                        <constraint firstItem="8oc-2I-iKe" firstAttribute="centerX" secondItem="CND-GD-haG" secondAttribute="centerX" id="iaM-tS-3Lx"/>
+                        <constraint firstItem="ttV-xN-dlv" firstAttribute="top" secondItem="KzQ-Bt-nQ7" secondAttribute="top" constant="15" id="kAW-ya-y9u"/>
+                        <constraint firstItem="CND-GD-haG" firstAttribute="top" secondItem="8oc-2I-iKe" secondAttribute="bottom" constant="25" id="mNo-E1-ixA"/>
+                        <constraint firstAttribute="bottom" secondItem="CND-GD-haG" secondAttribute="bottom" constant="15" id="rjg-Bx-zVO"/>
+                        <constraint firstAttribute="trailing" secondItem="CND-GD-haG" secondAttribute="trailing" id="wny-aw-rvM"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="KzQ-Bt-nQ7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="19I-pB-Srw"/>
+                <constraint firstItem="KzQ-Bt-nQ7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="6rz-A3-gbt"/>
+                <constraint firstAttribute="trailing" secondItem="KzQ-Bt-nQ7" secondAttribute="trailing" constant="20" id="Pxs-jp-3YU"/>
+                <constraint firstItem="KzQ-Bt-nQ7" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="WYm-2f-Nk1"/>
+            </constraints>
+            <point key="canvasLocation" x="33" y="53"/>
+        </view>
+    </objects>
+</document>
