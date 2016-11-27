@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   s.source       = { :git => "https://github.com/jesster2k10/Flat-Alert.git", :tag => s.version.to_s }
-  s.source_files  = '*.{h,swift}'
-  s.resources = 'Library/**/*.xib'
+  s.source_files  = 'FlatAlert/**.{h,swift}'
+  s.resources = 'FlatAlert/**/*.xib'
 
 end
