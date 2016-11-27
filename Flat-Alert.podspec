@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/jesster2k10/Flat-Alert"
   s.screenshots  = "http://i.imgur.com/2K3Muml.png", "http://i.imgur.com/4QSDh0P.png", "http://i.imgur.com/LUR8Vec.png"
 
-  s.license      = { :type => "GPL-3.0", :file => "LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE.md" }
 
   s.author       = { "Jesse Onolememen" => "jesse.ono105@gmail.com" }
 
