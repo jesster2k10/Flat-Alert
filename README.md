@@ -3,7 +3,8 @@ A simple, lightweight, flat alternative to UIAlertController written in Swift fo
 
 ## Sreenshots
 ----------------
-![alt](http://i.imgur.com/4QSDh0P.png "http://i.imgur.com/LUR8Vec.png")
+![alt](http://i.imgur.com/4QSDh0P.png "One button alert")
+![alt](http://i.imgur.com/LUR8Vec.png "Three Button alert")
 
 ## Features
 ----------------
